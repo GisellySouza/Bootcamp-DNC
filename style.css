@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    color: white;
+    
+}
+
+#cabeçalho{
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Inter";
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 50px;
+
+}
+#principal{
+    background-color: #303030; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid #bababa;
+}
+    #principal div a:hover{
+        color: #CCCCCC;
+    }
+
+
+.link{
+    text-decoration: none;
+}
+button{
+    font-family: "inter";
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+
+    width: 80px;
+    height: 40px;
+    
+    border: none;
+    margin-right: 5%;
+    background: #0C70F2;
+    box-shadow: 3px 2px 4px 0px rgba(12, 112, 242, 0.25);
+    
+    cursor: pointer;
+
+}
+
+#titulo{  
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 100px;
+    text-align: center;
+}
+#corpo{
+    background: linear-gradient(0deg, #303030, #303030),
+    linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%);
+
+    text-align: center;
+    align-items: center;
+}
+#enfase{
+    background-color: black;
+}
+
+
+
