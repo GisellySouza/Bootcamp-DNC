@@ -228,3 +228,78 @@
     
     }
 
+/*Para telas menores*/
+@media screen and (max-width: 600px) {
+    /*barra inicial*/
+        #principal{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            
+
+        }
+        #cabeçalho{
+            display: flex;
+            flex-direction: column;
+            padding: 10px 0px 10px;
+            align-items: center;
+            font-size: 18px;
+            width: 100%;
+        }
+        #login{
+            width: 100%;
+            margin: 0px;
+        }
+    /*corpo do site*/
+        #titulo{
+            font-size: 35px;
+
+        }
+        h2{
+            font-size: 25px;
+            padding: 0px 5px 0px 5px;
+        }
+        #form-group{
+          width: 95%;
+          font-size: 20px;
+          padding: 20px 5px 0px 5px;
+
+        }
+        form input::placeholder{
+            font-size: 15px;
+       
+        }
+
+        #Cadastrar{
+            width: 95%;
+
+        } 
+        .retangulo{
+            width: 95%;
+
+        }
+        #areadeinteresse{
+            margin: 20px 5px 20px 5px;
+        }
+        .caixa label{
+            font-size: 15px;
+        }
+        #navegação{
+            flex-direction: column;
+            width: 95;
+        }
+        #endereço{
+            width: 90%;
+        }
+       
+
+
+
+
+
+
+
+
+
+    }
+
